@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .cr-menu-item {
-  @apply text-gray-500 py-1 relative after:absolute after:w-0 after:h-[2px] after:bg-slate-500 after:bottom-0 after:left-0 hover:after:w-full hover:text-gray-800 after:transition-all after:ease-linear after:duration-300;
+  @apply text-gray-500 py-1 relative after:absolute after:w-0 after:h-[2px] after:bg-[#9da9f1] after:bottom-0 after:left-0 hover:after:w-full hover:text-gray-800 after:transition-all after:ease-linear after:duration-300;
 }
 .cr-icons {
   @apply w-5 h-5 inline-block;

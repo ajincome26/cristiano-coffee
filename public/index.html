@@ -4,20 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cristiano Coffee</title>
+
+    <link
+      rel="icon"
+      href="https://uploads-ssl.webflow.com/5c827d172301c3e12f0da64a/603ce3416939bf42d4ec48da_Favicon_7egend_32.png"
+      type="image/x-icon"
+    />
+    <title>CRISTIANO COFFEE</title>
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
     <div id="root">
-      <div class="container max-w-[1400px] bg-slate-200 px-8 mx-auto">
+      <div class="container font-Karla max-w-[1450px] bg-slate-200 mx-auto">
         <header class="w-full">
           <nav class="p-6 flex items-center">
-            <h3 class="logo basis-2/6 text-[20px] font-semibold text-center">
+            <h3
+              class="logo md:text-[20px] font-semibold text-center basis-3/6 text-lg lg:basis-2/6 xl:text-[24px]"
+            >
               <a href="#">Cristiano Coffee</a>
             </h3>
             <ul
               id="menu"
-              class="flex basis-3/6 items-center justify-between uppercase text-sm font-medium"
+              class="lg:basis-3/6 lg:flex lg:items-center lg:justify-between uppercase text-sm font-medium hidden xl:text-base"
             >
               <li class="cr-menu-item"><a href="#">Home</a></li>
               <li class="cr-menu-item"><a href="#">Products</a></li>
@@ -27,10 +35,10 @@
               <li class="cr-menu-item"><a href="#">Styleguide</a></li>
               <li class="cr-menu-item"><a href="#">Cristiano</a></li>
             </ul>
-            <div class="basis-1/6 ml-12">
+            <div class="lg:basis-1/6 basis-2/6 lg:ml-8">
               <a
                 href="#"
-                class="flex items-center text-sm font-medium text-gray-500 hover:text-gray-800 transition-all ease-linear duration-300"
+                class="flex items-center justify-end text-sm font-medium text-gray-500 hover:text-gray-800 transition-all ease-linear duration-300 lg:justify-start xl:text-base"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -46,14 +54,31 @@
                     d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
                   />
                 </svg>
-                <span class="mx-3 uppercase">Cart</span>
+                <span class="lg:mx-3 uppercase mx-2">Cart</span>
                 <span class="px-[8px] bg-[#5fbec4] rounded-2xl text-white"
                   >7</span
                 >
               </a>
             </div>
+            <div class="basis-1/6 flex justify-center lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="cr-icons text-gray-500 hover:text-gray-800 transition-all ease-linear duration-300"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+                />
+              </svg>
+            </div>
           </nav>
         </header>
+        <!-- End Header -->
         <main>
           <div class="slider">Slider</div>
           <div class="our-story">Story</div>
