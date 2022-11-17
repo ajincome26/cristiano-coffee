@@ -594,6 +594,11 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.my-16{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .mb-\[3rem\]{
   margin-bottom: 3rem;
 }
@@ -954,7 +959,7 @@ video {
   padding-right: 1rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity));
