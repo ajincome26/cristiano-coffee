@@ -16,7 +16,7 @@
   </head>
   <body>
     <div id="root">
-      <div class="container font-Karla max-w-[1450px] mx-auto">
+      <div class="container font-Karla max-w-[1450px] px-8 mx-auto">
         <header class="w-full">
           <nav class="p-6 flex items-center">
             <h3
@@ -137,11 +137,11 @@
             </div>
           </div>
           <!-- End Story -->
-          <div class="featured-mugs mx-auto w-[65%]">
+          <div class="featured-mugs w-[90%] mx-auto lg:w-[65%]">
             <div class="text-center">
               <div class="cr-section-title uppercase">Featured Mugs</div>
             </div>
-            <ul class="featured-list flex gap-4 mx-auto">
+            <ul class="featured-list block gap-4 mx-auto lg:flex">
               <li class="featured-item basis-1/2 text-center">
                 <div class="item-media cr-item-media group">
                   <img
@@ -158,9 +158,11 @@
                 </h3>
                 <span class="text-gray-500">$99.00 USD</span>
               </li>
-              <li class="featured-item basis-1/2 text-center">
+              <li
+                class="featured-item basis-1/2 text-center relative my-8 lg:my-0"
+              >
                 <span
-                  class="absolute top-4 right-4 px-6 py-2 bg-white text-[#b37c6c] font-medium"
+                  class="absolute top-4 right-4 px-6 py-2 bg-white text-[#b37c6c] font-medium z-10"
                   >On Sale</span
                 >
                 <div class="item-media cr-item-media group">
@@ -181,7 +183,38 @@
               </li>
             </ul>
           </div>
-          <div class="more-products">More products</div>
+          <div class="more-products mt-16">
+            <div class="text-center">
+              <div class="cr-section-title uppercase">More Products</div>
+            </div>
+            <div class="product-list">
+              <div class="product-item">
+                <a href="#" class="">
+                  <div
+                    class="relative w-full h-[380px] cursor-pointer after:absolute after:w-full after:h-full after:top-0 after:left-0 hover:after:bg-gray-900 hover:after:bg-opacity-20 after:transition-all after:ease-linear after:duration-300"
+                  >
+                    <img
+                      src="./media/product-coffee-01.jpeg"
+                      alt=""
+                      class="w-full h-full object-cover"
+                    />
+                    <div class="cr-button-explore">Explore Mugs</div>
+                  </div>
+                </a>
+                <div class="product-content">
+                  <h3
+                    class="text-xl mt-8 mb-3 hover:text-[#b37c6c] cursor-pointer"
+                  >
+                    Golden Designers Mugs
+                  </h3>
+                  <span class="text-[#b37c6c] text-xl">$50.00 USD</span>
+                  <span class="text-gray-500 line-through ml-2"
+                    >$69.00 USD</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="magazine">Magazine</div>
           <div class="lifestyle">Life style</div>
           <div class="subscribe">Subscribe</div>
