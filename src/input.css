@@ -21,8 +21,11 @@
   @apply mb-16 uppercase text-slate-600 text-sm font-semibold relative after:absolute after:w-[230px] after:h-[2px] after:bg-[#babdc4] after:top-1/2 after:left-[50%] after:translate-x-[-50%] after:translate-y-[-50%] after:-z-10 inline-block px-4 bg-white;
 }
 .cr-item-media {
-  @apply relative w-full h-[540px] cursor-pointer after:absolute after:w-full after:h-full after:top-0 after:left-0 hover:after:bg-gray-900 hover:after:bg-opacity-20 after:transition-all after:ease-linear after:duration-300;
+  @apply relative w-full lg:h-[540px] h-[380px] sm:h-[460px] cursor-pointer after:absolute after:w-full after:h-full after:top-0 after:left-0 hover:after:bg-gray-900 hover:after:bg-opacity-20 after:transition-all after:ease-linear after:duration-300;
 }
 .cr-button-explore {
   @apply w-[80%] uppercase absolute bg-white bottom-4 left-1/2 translate-x-[-50%] py-4 whitespace-nowrap invisible group-hover:visible hover:bg-opacity-80 transition-all ease-linear duration-300 z-10;
+}
+.cr-product-media {
+  @apply relative w-full h-[380px] cursor-pointer after:absolute after:w-full after:h-full after:top-0 after:left-0 hover:after:bg-gray-900 hover:after:bg-opacity-20 after:transition-all after:ease-linear after:duration-300 text-center;
 }
