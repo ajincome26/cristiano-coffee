@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 .cr-menu-item {
-  @apply text-gray-500 py-1 relative after:absolute after:w-0 after:h-[2px] after:bg-[#9da9f1] after:bottom-0 after:left-0 hover:after:w-full hover:text-gray-800 after:transition-all after:ease-linear after:duration-300 cursor-pointer;
+  @apply text-gray-500 py-1 relative after:absolute after:w-0 after:h-[1.5px] after:bg-[#9da9f1] after:bottom-0 after:left-0 hover:after:w-full hover:text-gray-800 after:transition-all after:ease-linear after:duration-300 cursor-pointer;
 }
 .cr-gray-800 {
   @apply text-gray-800;
@@ -28,4 +28,23 @@
 }
 .cr-product-media {
   @apply relative w-full h-[380px] cursor-pointer after:absolute after:w-full after:h-full after:top-0 after:left-0 hover:after:bg-gray-900 hover:after:bg-opacity-20 after:transition-all after:ease-linear after:duration-300 text-center;
+}
+.cr-media-lifestyle {
+  @apply relative after:absolute after:w-full after:h-full after:top-0 after:left-0 hover:after:bg-gray-900 hover:after:bg-opacity-10 after:transition-all after:ease-linear after:duration-300;
+}
+.cr-truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+.cr-truncate-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
 }
