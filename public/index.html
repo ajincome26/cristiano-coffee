@@ -26,7 +26,7 @@
             </h3>
             <ul
               id="menu"
-              class="lg:basis-3/6 lg:flex lg:items-center lg:justify-between uppercase text-sm font-medium hidden xl:text-base transition-all ease-linear duration-300"
+              class="lg:basis-3/6 lg:flex lg:items-center lg:justify-between uppercase text-sm font-medium hidden xl:text-base transition-all ease-linear duration-300 z-50"
             >
               <li class="cr-menu-item"><a href="#">Home</a></li>
               <li class="cr-menu-item"><a href="#">Products</a></li>
@@ -106,7 +106,7 @@
             </div>
           </div>
           <!-- End Slider -->
-          <div class="story w-[90%] mx-auto my-16 lg:w-[65%]">
+          <div class="story w-[90%] mx-auto my-16 lg:w-[70%]">
             <div class="text-center">
               <div class="cr-section-title">Our Coffee Story</div>
             </div>
@@ -137,7 +137,7 @@
             </div>
           </div>
           <!-- End Story -->
-          <div class="featured-mugs w-[90%] mx-auto lg:w-[65%]">
+          <div class="featured-mugs w-[90%] mx-auto lg:w-[70%]">
             <div class="text-center">
               <div class="cr-section-title uppercase">Featured Mugs</div>
             </div>
@@ -184,7 +184,7 @@
             </ul>
           </div>
           <!-- End Featured -->
-          <div class="more-products w-[90%] mt-16 lg:w-[65%] mx-auto">
+          <div class="more-products w-[90%] mt-16 lg:w-[70%] mx-auto">
             <div class="text-center">
               <div class="cr-section-title uppercase">More Products</div>
             </div>
@@ -388,7 +388,7 @@
             </div>
           </div>
           <!-- End Products -->
-          <div class="magazine xl:w-[65%] mt-16 mb-24 mx-auto w-[90%]">
+          <div class="magazine xl:w-[70%] mt-16 mb-24 mx-auto w-[90%]">
             <div class="text-center">
               <div class="cr-section-title uppercase">
                 Buy 2 & magazine free
@@ -399,16 +399,16 @@
                 class="maga-list basis-1/2 md:flex md:gap-5 w-full h-full block"
               >
                 <div
-                  class="basis-2/3 h-[280px] bg-[url('./media/magazine-image-01.jpeg')] bg-no-repeat bg-center bg-cover"
+                  class="basis-2/3 h-[280px] bg-[url('./media/magazine-image-01.jpeg')] bg-no-repeat bg-center bg-cover cursor-zoom-in"
                 ></div>
                 <div
                   class="basis-1/3 flex flex-row gap-[20px] md:flex-col mt-5 md:mt-0"
                 >
                   <div
-                    class="h-[130px] basis-1/2 bg-[url('./media/magazine-image-02.jpeg')] bg-no-repeat bg-center bg-cover"
+                    class="h-[130px] basis-1/2 bg-[url('./media/magazine-image-02.jpeg')] bg-no-repeat bg-center bg-cover cursor-zoom-in"
                   ></div>
                   <div
-                    class="h-[130px] basis-1/2 bg-[url('./media/magazine-image-03.jpeg')] bg-no-repeat bg-center bg-cover"
+                    class="h-[130px] basis-1/2 bg-[url('./media/magazine-image-03.jpeg')] bg-no-repeat bg-center bg-cover cursor-zoom-in"
                   ></div>
                 </div>
               </div>
@@ -437,21 +437,20 @@
           <div
             class="effect-parallax bg-[url('./media/bg-parallax-01.jpeg')] bg-no-repeat bg-cover bg-center h-[400px] mb-24 bg-fixed ml-[-100px] mr-[-100px]"
           ></div>
-          <div class="lifestyle">
+          <!-- End BG-Fixed -->
+          <div class="lifestyle w-[90%] xl:w-[70%] mx-auto mb-24">
             <div class="text-center">
               <div class="cr-section-title uppercase">Lifestyle Stories</div>
             </div>
-            <div class="lifestyle-list w-[65%] mx-auto grid grid-cols-3 gap-6">
-              <div class="item">
+            <div
+              class="lifestyle-list block md:grid md:grid-cols-2 gap-6 xl:grid-cols-3"
+            >
+              <div class="item mb-6 md:mb-0">
                 <a href="#" class="cr-media-lifestyle group">
                   <div
                     class="bg-[url('./media/lifestyle-story-01.jpeg')] bg-cover bg-center bg-no-repeat h-[300px]"
                   ></div>
-                  <div
-                    class="absolute bottom-3 bg-white left-1/2 translate-x-[-50%] w-[80%] text-center py-3 uppercase text-gray-900 hover:bg-opacity-90 z-10 invisible group-hover:visible transition-all ease-linear duration-300"
-                  >
-                    Read the full story
-                  </div>
+                  <div class="cr-button-lifestyle">Read the full story</div>
                 </a>
                 <div class="mt-6">
                   <a href="#">
@@ -462,7 +461,9 @@
                       my coffee?
                     </div>
                   </a>
-                  <div>
+                  <div
+                    class="md:h-[124px] md:flex md:flex-col md:justify-between block"
+                  >
                     <div class="text-gray-500 leading-7 mb-3 cr-truncate-3">
                       It is a paradisematic country, in which roasted parts of
                       sentences fly into your mouth.
@@ -475,16 +476,12 @@
                   </div>
                 </div>
               </div>
-              <div class="item">
+              <div class="item mb-6 md:mb-0">
                 <a href="#" class="cr-media-lifestyle group">
                   <div
                     class="bg-[url('./media/lifestyle-story-02.jpeg')] bg-cover bg-center bg-no-repeat h-[300px]"
                   ></div>
-                  <div
-                    class="absolute bottom-3 bg-white left-1/2 translate-x-[-50%] w-[80%] text-center py-3 uppercase text-gray-900 hover:bg-opacity-90 z-10 invisible group-hover:visible transition-all ease-linear duration-300"
-                  >
-                    Read the full story
-                  </div>
+                  <div class="cr-button-lifestyle">Read the full story</div>
                 </a>
                 <div class="mt-6">
                   <a href="#">
@@ -494,7 +491,9 @@
                       How long does a cup of coffee keep you awake?
                     </div>
                   </a>
-                  <div class="h-[124px] flex flex-col justify-between">
+                  <div
+                    class="md:h-[124px] md:flex md:flex-col md:justify-between block"
+                  >
                     <div class="text-gray-500 leading-7 mb-3 cr-truncate-3">
                       It is a paradisematic country, in which roasted parts. Vel
                       qui et ad voluptatem.
@@ -507,16 +506,12 @@
                   </div>
                 </div>
               </div>
-              <div class="item">
+              <div class="item mb-6 md:mb-0">
                 <a href="#" class="cr-media-lifestyle group">
                   <div
                     class="bg-[url('./media/lifestyle-story-03.jpeg')] bg-cover bg-center bg-no-repeat h-[300px]"
                   ></div>
-                  <div
-                    class="absolute bottom-3 bg-white left-1/2 translate-x-[-50%] w-[80%] text-center py-3 uppercase text-gray-900 hover:bg-opacity-90 z-10 invisible group-hover:visible transition-all ease-linear duration-300"
-                  >
-                    Read the full story
-                  </div>
+                  <div class="cr-button-lifestyle">Read the full story</div>
                 </a>
                 <div class="mt-6">
                   <a href="#">
@@ -527,22 +522,164 @@
                       reap health benefits.
                     </div>
                   </a>
-                  <div class="text-gray-500 leading-7 mb-3 cr-truncate-3">
-                    It is a paradisematic country, in which roasted parts of
-                    sentences fly into your mouth.
-                  </div>
                   <div
-                    class="text-gray-500 leading-7 uppercase text-[13px] font-semibold tracking-widest"
+                    class="md:h-[124px] md:flex md:flex-col md:justify-between block"
                   >
-                    OCTOBER 22, 2022
+                    <div class="text-gray-500 leading-7 mb-3 cr-truncate-3">
+                      It is a paradisematic country, in which roasted parts of
+                      sentences fly into your mouth.
+                    </div>
+                    <div
+                      class="text-gray-500 leading-7 uppercase text-[13px] font-semibold tracking-widest"
+                    >
+                      OCTOBER 22, 2022
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="subscribe">Subscribe</div>
+          <!-- End Lifestyle -->
+          <div
+            class="subscribe w-full max-w-screen-2xl h-[350px] bg-[#1d1f2e] text-center flex flex-col justify-center items-center mb-24"
+          >
+            <span
+              class="uppercase tracking-widest text-gray-400 font-bold text-xs mb-6"
+            >
+              Sign up and get free coffee bags
+            </span>
+            <div class="text-4xl text-white mb-6">Coffee Updates</div>
+            <div
+              class="flex flex-col md:flex-row justify-center items-center gap-3"
+            >
+              <input
+                type="email"
+                placeholder="tuantu260600@gmail.com"
+                class="px-6 py-4 w-[350px] max-w-[80%] xs:max-w-full bg-inherit border-[1px] border-gray-700 outline-none text-white leading-5 hover:border-gray-300 focus:border-gray-300 placeholder:uppercase placeholder:text-xs placeholder:tracking-widest placeholder:font-semibold duration-500"
+              />
+              <button
+                type="submit"
+                class="uppercase bg-white font-semibold text-gray-900 w-max max-h-[54px] px-6 py-4 hover:bg-opacity-80 transition-all ease-linear duration-500"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <!-- End Subscribe -->
         </main>
-        <footer>foooter</footer>
+        <footer
+          class="w-[90%] mx-auto md:flex md:gap-12 mb-24 xl:w-[70%] text-center md:text-start"
+        >
+          <div class="basis-1/3 mb-6 md:mb-0">
+            <a href="#" class="text-base font-semibold">Cristiano Coffee</a>
+            <div class="mb-8 md:mb-20 text-gray-500 mt-4 text-sm">
+              Delivering the best coffee life since 1996. From coffee geeks to
+              the real ones.
+            </div>
+            <div
+              class="text-gray-400 hover:text-[#b37c6c] cursor-pointer text-sm"
+            >
+              CR 7egenD . © 2022
+            </div>
+          </div>
+          <div class="basis-1/6 mb-6 md:mb-0">
+            <div
+              class="uppercase font-semibold tracking-wider text-gray-600 mb-4"
+            >
+              Menu
+            </div>
+            <div class="flex flex-col gap-3 text-sm">
+              <div>
+                <a href="#" class="text-gray-500 hover:text-[#b37c6c]">Home</a>
+              </div>
+              <div>
+                <a href="#" class="text-gray-500 hover:text-[#b37c6c]"
+                  >Our Products</a
+                >
+              </div>
+              <div>
+                <a href="#" class="text-gray-500 hover:text-[#b37c6c]">About</a>
+              </div>
+              <div>
+                <a href="#" class="text-gray-500 hover:text-[#b37c6c]"
+                  >Contact</a
+                >
+              </div>
+              <div>
+                <a href="#" class="text-gray-500 hover:text-[#b37c6c]"
+                  >Styleguide</a
+                >
+              </div>
+              <div>
+                <a href="#" class="text-gray-500 hover:text-[#b37c6c]"
+                  >Cristiano</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="basis-1/6 mb-6 md:mb-0">
+            <div
+              class="uppercase font-semibold tracking-wider text-gray-600 mb-4"
+            >
+              Follow us
+            </div>
+            <div class="flex flex-col gap-3 text-sm">
+              <div>
+                <a
+                  href="https://www.facebook.com/ajincome.7"
+                  class="text-gray-500 hover:text-[#b37c6c]"
+                  >Facebook</a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://www.instagram.com/jh.tu2606/"
+                  class="text-gray-500 hover:text-[#b37c6c]"
+                  >Instagram</a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://twitter.com/cr7egend_2606"
+                  class="text-gray-500 hover:text-[#b37c6c]"
+                  >Twitter</a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://github.com/ajincome26"
+                  class="text-gray-500 hover:text-[#b37c6c]"
+                  >Github</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="basis-1/3">
+            <div
+              class="uppercase font-semibold tracking-wider text-gray-600 mb-4"
+            >
+              Contact us
+            </div>
+            <div class="flex flex-col gap-3 text-sm">
+              <div class="text-gray-500">We're Always Happy to Help</div>
+              <div class="mb-12 text-gray-800 text-[22px] tracking-wide">
+                <a
+                  href="https://www.instagram.com/jh.tu2606/"
+                  class="text-gray-500 hover:text-[#b37c6c] text-xl"
+                  >tuantu26062000@gmail.com</a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://www.instagram.com/jh.tu2606/"
+                  class="text-gray-400 hover:text-[#b37c6c] cursor-pointer text-sm"
+                  >Powered by Cristiano Author</a
+                >
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- End Footer -->
       </div>
     </div>
   </body>

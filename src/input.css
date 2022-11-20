@@ -32,6 +32,9 @@
 .cr-media-lifestyle {
   @apply relative after:absolute after:w-full after:h-full after:top-0 after:left-0 hover:after:bg-gray-900 hover:after:bg-opacity-10 after:transition-all after:ease-linear after:duration-300;
 }
+.cr-button-lifestyle {
+  @apply absolute bottom-3 bg-white left-1/2 translate-x-[-50%] w-[80%] text-center py-3 uppercase text-gray-900 hover:bg-opacity-90 z-10 invisible group-hover:visible transition-all ease-linear duration-300;
+}
 .cr-truncate-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
